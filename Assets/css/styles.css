@@ -25,3 +25,17 @@ iframe {
   display: block;
   margin: 0 auto;
 }
+
+.miBoton {
+  background-color: turquoise;
+  color: turquoise;
+  border: 2px solid turquoise;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.miBoton:hover {
+  background-color: black;
+  color: white;
+}
