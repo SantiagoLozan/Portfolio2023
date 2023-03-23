@@ -1,0 +1,27 @@
+/* tres formas de colocar estilo */
+
+p {
+  color: black
+}
+
+/* solo los parrafos con clase "X" */
+.verde {
+  color: green;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
