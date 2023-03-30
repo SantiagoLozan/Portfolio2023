@@ -17,20 +17,42 @@
   </style>
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Santi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Proyectos</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link " href="https://github.com/SantiagoLozan" tabindex="-1" target="_blank">GitHub</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+</header>
   <!--Boostrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  <!-- Esto es un comentario-->
-  <!-- Agregar Titulo y parrafo-->
+
   <h1>Programacion 1 2023</h1>
   <h2>Portfolio Santiago</h2>
   
-  <!--Columnas-->
+
   <div style="display: flex; flex-direction: row;">
     <div style="flex: 1;">
   <p>Mi nombre es Santiago Lozan, tengo 25 años, soy de la ciudad de Gálvez, Santa Fé. Soy estudiante de la carrera Lic. en Produccion de Videojuegos y Entretenimiento Digital de la Universidad Nacional de Rafaela.  </p>
     <p>Las cosas que me gusta hacer son: </p>
-  <!--Lista no ordenada-->
+
   <ul>
     <li>Escuchar musica</li>
     <li>Salir con amigos</li>
@@ -45,56 +67,38 @@
 </div>
 
 
-  <!--<p class="verde">Parrafito test clase </p> -->
-
-  <!-- Parrafo en negrita-->
-  <!--<p><b>Parrafo en negrita</b></p> -->
-
-  <!--Imagen-->
-  <!--<img src="Public/mm.jpg" alt="Messi con la copa"> -->
-  <!--Link-->
-  
-
-  <!--agregar estilo dentro del html-->
-  <!--<p style="color: red" >Parrafo en rojo</p>-->
-
-  <!--Lista ordenada-->
-  <!--<ol>
-    <li>Item 1</li>
-    <li>Item2</li>
-    <li>Item3</li>
-
-  </ol>-->
-  
 <h2>Diferentes selecciones nacionales</h2>
-  <!--Carrusel-->
+
   <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./Public/fut.png" class="d-block w-100" alt="Futbol">
+        <img src="./Public/fut.png" class="d-block mx-auto" style="max-width: 500px" alt="Futbol">
       </div>
       <div class="carousel-item">
-        <img src="./Public/Rug.jpg" class="d-block w-100" alt="Rugby">
+        <img src="./Public/Rug.jpg" class="d-block mx-auto" style="max-width: 500px" alt="Rugby">
       </div>
       <div class="carousel-item">
-        <img src="./Public/hock.png" class="d-block w-100" alt="Hockey">
+        <img src="./Public/hock.png" class="d-block mx-auto" style="max-width: 500px" alt="Hockey">
       </div>
+      <button class="carousel-control-prev custom-carousel-btn" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next custom-carousel-btn" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <!--Boton Carrusel-->
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
 
-  <h2>Musica para escuchar</h2>
-  <!-- <a href=""></a> -->
-  <iframe margin = 0 auto; width="800" height="600" src="https://www.youtube.com/embed/dvHihwvxed8" title="Path of The Last Samurai During Lunar Eclipse | Japanese ambient sound for relaxation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <!-- <h2>Musica para escuchar</h2>
 
+  <iframe margin = 0 auto; width="250" height="250" src="https://www.youtube.com/embed/dvHihwvxed8" title="Path of The Last Samurai During Lunar Eclipse | Japanese ambient sound for relaxation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+ 
+  <h2>Proyectos</h2>
+  <div>
+    <img src=".Public/Render3" alt="Render">
+  </div>
   
   </div>
   
