@@ -1,4 +1,8 @@
-/* tres formas de colocar estilo */
+a {
+  color: black;
+  text-decoration: none;
+}
+
 
 p {
   color: black
