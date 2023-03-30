@@ -1,4 +1,4 @@
-      function mostrarAlerta(){
-        alert("Encontraste el Botón escondido!");
-      }
+      //function mostrarAlerta(){
+        //alert("Encontraste el Botón escondido!");
+      //}
   
